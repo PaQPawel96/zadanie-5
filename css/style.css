@@ -1,0 +1,101 @@
+header {
+    width: 100%;
+    height: 500px;
+
+}
+
+img {
+    margin-top: -100px;
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+}
+
+nav a {
+    position: absolute;
+    text-align: center;
+    display: inline;
+    background-color: #007bff;
+    color: #777777;
+    width: 100%;
+    text-decoration: none;
+
+}
+/*img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    transform: scaleX(-1);
+  }*/
+
+body {
+    color: #007bff;
+    width: 100px;
+    height: 200px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 4.2em;
+}
+
+p + h1 {
+font-size: 1.9em;
+}
+
+h2 < section.portfolio {
+font-size: 3em;
+}
+
+button, h2, header {
+    color: #333;
+
+}
+
+section [id="O-mnie"]{
+
+}
+
+social:hover {
+    color: #777;
+}
+
+p < section [id="O-mnie"] {
+    height: 1.4;
+}
+
+.szary {
+    background-color: #f2f1ed;
+}
+
+
+section {
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+
+    @media  (min-width:1200px) {
+    body{ 
+        width: 1170px;
+        }
+    }
+
+    @media (min-width: 992px) and (max-width: 1200px) {
+        body {
+            width: 992px;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 992px) {
+        body {
+            width: 768px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        body {
+            width: 95%;
+        }
+    }
+
+    p < section [id="O-mnie"] , form {
+        max-width: 700px;
+    }
